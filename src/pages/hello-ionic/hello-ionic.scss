@@ -1,0 +1,112 @@
+.hello-ionic-page {
+
+  p {
+    margin: 20px 0;
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+
+.card-header {
+	text-align: end;
+	margin: 0;
+	
+	img {
+		width: 90%;
+	}
+}
+
+.card-title {
+    position: absolute;
+    top: 5%;
+    font-size: 3.0em;
+    width: 93%;
+    font-weight: bold;
+    margin-left: 3%;
+  }
+
+  .card-subtitle {
+    font-size: 2.0em;
+    position: absolute;
+    top: 11%;
+    width: 93%;
+    margin-left: 3%;
+  }
+  
+.card-md {
+	box-shadow: 0 0 0 0;
+
+	h1 {
+		font-size: 3.5rem;
+	}
+	p {
+		font-size: 2.0rem;
+	}
+	.info-contact {
+		margin-top: 20%;
+		text-align: center;
+		width: 90%;
+	}
+}  
+
+.toolbar-content {
+ 	display: inherit;
+}
+
+.toolbar-background {
+ 	background: #b71316;
+}
+
+.bar-button-default-md {
+  color: #f4f4f4;
+}
+
+.toolbar-title-md {
+ 	color: #f4f4f4;
+ }
+
+ .segment-md {
+ 	.segment-button {
+		border-bottom-style: none;
+		opacity: 1; 
+	 }
+ }
+ 
+ ion-footer {
+	 position: initial;
+ }
+ 
+ .Footer {
+	width: 100%;
+	text-align: center;
+}
+
+.Footer-copyright {
+  color: #f4f4f4;
+ }
+ 
+ ion-icon {
+	 font-size: 4em;
+	 margin-left: 2.5%;
+ }
+ 
+ a {
+  color: #f4f4f4;
+}
+
+.card-contact {
+	.info-contact {
+		position: absolute;
+		color: #f4f4f4;
+		margin-left: 3%;
+		margin-top: 3%;
+		font-size: 2.0em;
+		
+		h1 {
+			font-size: 3.0em;
+		}
+	}
+	img {
+		width: 100%;
+	}
+}
