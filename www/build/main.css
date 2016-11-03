@@ -19737,6 +19737,7 @@ a {
   position: absolute;
   color: #f4f4f4;
   margin-left: 3%;
+  margin-top: 0;
   font-size: 0.6em;
 }
 
@@ -19769,6 +19770,7 @@ a {
   }
   .card-contact .info-contact {
     font-size: 2.0em;
+    margin-top: 0;
   }
   .card-contact .info-contact h1 {
     font-size: 3.0em;
