@@ -18,18 +18,16 @@
 
 .card-title {
     position: absolute;
-    top: 5%;
-    font-size: 3.0em;
-    width: 93%;
+    top: 2.2%;
+    font-size: 0.82em;
     font-weight: bold;
     margin-left: 3%;
   }
 
   .card-subtitle {
-    font-size: 2.0em;
     position: absolute;
-    top: 11%;
-    width: 93%;
+    font-size: 0.69em;
+    top: 4.2%;
     margin-left: 3%;
   }
   
@@ -37,10 +35,10 @@
 	box-shadow: 0 0 0 0;
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 0.7rem;
 	}
 	p {
-		font-size: 2.0rem;
+		font-size: 0.55rem;
 	}
 	.info-contact {
 		margin-top: 20%;
@@ -100,13 +98,49 @@
 		color: #f4f4f4;
 		margin-left: 3%;
 		margin-top: 3%;
-		font-size: 2.0em;
+		font-size: 0.6em;
 		
 		h1 {
-			font-size: 3.0em;
+			font-size: 1.5em;
 		}
 	}
 	img {
 		width: 100%;
 	}
 }
+
+@media screen and (min-width: 768px){
+.card-title {
+    top: 5%;
+    font-size: 2.5em;
+  }
+
+  .card-subtitle {
+  	font-size: 2.0em;
+    top: 11%;
+  }
+
+  .card-md {
+	h1 {
+		font-size: 3.5rem;
+	}
+	p {
+		font-size: 2.0rem;
+	}
+	.info-contact {
+		margin-top: 10%;
+		width: 90%;
+	}
+  } 
+
+  .card-contact {
+	.info-contact {
+		font-size: 2.0em;
+		
+		h1 {
+			font-size: 3.0em;
+		}
+	}
+  }
+
+}  

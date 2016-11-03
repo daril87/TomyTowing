@@ -19659,18 +19659,16 @@ sub {
 
 .card-title {
   position: absolute;
-  top: 5%;
-  font-size: 3.0em;
-  width: 93%;
+  top: 2.2%;
+  font-size: 0.82em;
   font-weight: bold;
   margin-left: 3%;
 }
 
 .card-subtitle {
-  font-size: 2.0em;
   position: absolute;
-  top: 11%;
-  width: 93%;
+  font-size: 0.69em;
+  top: 4.2%;
   margin-left: 3%;
 }
 
@@ -19679,11 +19677,11 @@ sub {
 }
 
 .card-md h1 {
-  font-size: 3.5rem;
+  font-size: 0.7rem;
 }
 
 .card-md p {
-  font-size: 2.0rem;
+  font-size: 0.55rem;
 }
 
 .card-md .info-contact {
@@ -19740,15 +19738,42 @@ a {
   color: #f4f4f4;
   margin-left: 3%;
   margin-top: 3%;
-  font-size: 2.0em;
+  font-size: 0.6em;
 }
 
 .card-contact .info-contact h1 {
-  font-size: 3.0em;
+  font-size: 1.5em;
 }
 
 .card-contact img {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .card-title {
+    top: 5%;
+    font-size: 2.5em;
+  }
+  .card-subtitle {
+    font-size: 2.0em;
+    top: 11%;
+  }
+  .card-md h1 {
+    font-size: 3.5rem;
+  }
+  .card-md p {
+    font-size: 2.0rem;
+  }
+  .card-md .info-contact {
+    margin-top: 10%;
+    width: 90%;
+  }
+  .card-contact .info-contact {
+    font-size: 2.0em;
+  }
+  .card-contact .info-contact h1 {
+    font-size: 3.0em;
+  }
 }
 
 .item-details-page div.selection {
